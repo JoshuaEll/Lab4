@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.LoginController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="400.0" layoutX="400.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true" x="400.0" y="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../../data/images/gettyimages-157639696.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D height="500.0" width="400.0" />
+         </viewport>
+      </ImageView>
+      <TextField fx:id="UserText" layoutX="168.0" layoutY="198.0" prefHeight="22.0" prefWidth="165.0" promptText="username" AnchorPane.leftAnchor="168.0" AnchorPane.rightAnchor="67.0" />
+      <Button fx:id="LogIn" layoutX="215.0" layoutY="310.0" mnemonicParsing="false" onAction="#handleInput" prefHeight="22.0" prefWidth="52.0" text="Log In" />
+      <Label layoutX="141.0" layoutY="37.0" text="Starfleet Personnel" textFill="#e84c4c">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="ErLabel" layoutX="139.0" layoutY="376.0" textFill="#f21919">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="PWText" layoutX="168.0" layoutY="250.0" promptText="Password" AnchorPane.leftAnchor="168.0" AnchorPane.rightAnchor="67.0" />
+      <Label fx:id="ULabel" layoutX="14.0" layoutY="202.0" text="Please enter your Username :" textFill="WHITE" />
+      <Label fx:id="pwLabel" layoutX="14.0" layoutY="254.0" text="Please enter your Password :" textFill="WHITE" />
+      <ImageView fitHeight="143.0" fitWidth="108.0" layoutX="5.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../../data/images/95ae2b5cde647c4541911e2a5c34cec1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
